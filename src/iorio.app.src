@@ -1,0 +1,14 @@
+{application, iorio,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  iorio_rest,
+                  lager
+                 ]},
+  {mod, { iorio_app, []}},
+  {env, []}
+ ]}.
